@@ -2,6 +2,7 @@
     "name": "andri-sudarmawijaya/theme-core-ui",
     "description": "CodeIginter 3 Theme Based on Core UI",
     "type": "codeigniter-views",
+    "version": "v0.0.1",
     "require": {
         "coreui/coreui": "^4.0",
         "andri-sudarmawijaya/jquery": "dev-master",
