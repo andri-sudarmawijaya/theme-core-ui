@@ -1,0 +1,25 @@
+{
+    "name": "andri-sudarmawijaya/theme-core-ui",
+    "description": "CodeIginter Theme Based on Core UI",
+    "type": "codeigniter-views",
+    "require": {
+        "coreui/coreui": "^4.0",
+        "twbs/bootstrap": "^4.0",
+        "datatables/datatables": "^1.10",
+        "fortawesome/font-awesome": " ^5.15",
+        "snapappointments/bootstrap-select": " ^1.13"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AndriSudarmawijaya\\ThemeCoreUi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andri Sudarmawijaya",
+            "email": "andri.sudarmawijaya@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
