@@ -4,7 +4,7 @@
     "type": "codeigniter-views",
     "require": {
         "coreui/coreui": "^4.0",
-        "andri-sudarmawijaya/jquery": "3.5.2-alpha",
+        "andri-sudarmawijaya/jquery": "3.5.2*",
         "twbs/bootstrap": "^4.0",
         "datatables/datatables": "^1.10",
         "fortawesome/font-awesome": " ^5.15",
