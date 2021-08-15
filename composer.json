@@ -5,7 +5,6 @@
     "version": "v0.0.1",
     "require": {
         "coreui/coreui": "^4.0",
-        "andri-sudarmawijaya/jquery": "dev-master",
         "twbs/bootstrap": "^4.0",
         "datatables/datatables": "^1.10",
         "fortawesome/font-awesome": " ^5.15",
