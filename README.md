@@ -1,2 +1,2 @@
 # theme-core-ui
-CodeIgniter Theme Based on Core UI
+CodeIgniter 3 Theme Based on Core UI

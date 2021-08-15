@@ -1,6 +1,6 @@
 {
     "name": "andri-sudarmawijaya/theme-core-ui",
-    "description": "CodeIginter Theme Based on Core UI",
+    "description": "CodeIginter 3 Theme Based on Core UI",
     "type": "codeigniter-views",
     "require": {
         "coreui/coreui": "^4.0",
