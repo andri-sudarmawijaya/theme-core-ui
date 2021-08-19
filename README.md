@@ -37,4 +37,4 @@ copy folder assets to public
 cp -Rv vendor/andri-sudarmawijaya/theme-core-ui/public/assets public
 ```
 ## Result
-access /dashboard from your site.
+access /home and /home/dashboard from your site.
