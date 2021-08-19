@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<?php
+defined('BASEPATH') or exit('No direct script access allowed');
+?><!DOCTYPE html>
 <!--
 * CoreUI - Free Bootstrap Admin Template
 * @version v2.1.12
