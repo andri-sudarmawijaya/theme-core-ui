@@ -27,6 +27,11 @@ add package as array
                 'example_branch' => 'master',
             ),
 ```
+run the installer
+```
+bin/install.php theme-core-ui
+```
+
 copy folder assets to public
 ```
 cp -Rv vendor/andri-sudarmawijaya/theme-core-ui/public/assets public

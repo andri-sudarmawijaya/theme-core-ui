@@ -22,4 +22,9 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('theme-core-ui/welcome_message');
 	}
+
+	public function dashboard()
+	{
+		$this->load->view('theme-core-ui/dashboard');
+	}
 }
