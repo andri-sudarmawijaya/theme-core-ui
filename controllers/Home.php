@@ -19,12 +19,12 @@ class Home extends CI_Controller {
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
 	public function index()
-	{
-		$this->load->view('theme-core-ui/welcome_message');
+	{	$data['welcome'] = 'Welcome to CodeIgniter!';
+		$this->load->view('theme-core-ui/welcome_message', $data);
 	}
 
 	public function dashboard()
-	{
-		$this->load->view('theme-core-ui/dashboard');
+	{	$data['page_title'] = 'CoreUI Free Bootstrap Admin Template';
+		$this->load->view('theme-core-ui/dashboard', $data);
 	}
 }

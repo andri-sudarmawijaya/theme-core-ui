@@ -32,7 +32,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="card p-4">
 						<div class="card-body">
 
-							<h1 class="bg-success text-white p-2">Welcome to CodeIgniter!</h1>
+							<h1 class="bg-success text-white p-2"><?php echo $welcome; ?></h1>
 
 							<div id="body">
 								<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
