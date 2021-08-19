@@ -29,12 +29,12 @@ add package as array
 ```
 run the installer
 ```
-bin/install.php theme-core-ui
+$ bin/install.php theme-core-ui
 ```
 
 copy folder assets to public
 ```
-cp -Rv vendor/andri-sudarmawijaya/theme-core-ui/public/assets public
+$ cp -Rv vendor/andri-sudarmawijaya/theme-core-ui/public/assets public
 ```
 ## Result
 access /home and /home/dashboard from your site.
