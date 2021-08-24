@@ -10,16 +10,40 @@
         "fortawesome/font-awesome": " ^5.15",
         "snapappointments/bootstrap-select": " ^1.13"
     },
+    "authors": [
+        {
+            "name": "Andri Sudarmawijaya",
+            "email": "andri.sudarmawijaya@gmail.com"
+        }
+    ],
     "license": "MIT",
     "autoload": {
         "psr-4": {
             "AndriSudarmawijaya\\ThemeCoreUi\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Andri Sudarmawijaya",
-            "email": "andri.sudarmawijaya@gmail.com"
+    "autoload": {
+        "psr-4": {
+            "AndriSudarmawijaya\\ThemeCoreUi\\": "src/"
         }
-    ]
+    },
+    "scripts" : {
+        "post-install-cmd": [
+            "AndriSudarmawijaya\\ThemeCoreUi\\Installer::postInstall"
+        ],
+        "post-update-cmd": [
+            "php -r \"copy('config/local-example.php', './application/config/local.php');\"",
+            "AndriSudarmawijaya\\ThemeCoreUi\\Installer::postUpdate"
+        ],
+        "post-autoload-dump": [
+            "AndriSudarmawijaya\\ThemeCoreUi\\Installer::postAutoloadDump"
+        ]
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "compile": [{"php-method": "\\AndriSudarmawijaya\\ThemeCoreUi\\Installer::postUpdate"}],
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }

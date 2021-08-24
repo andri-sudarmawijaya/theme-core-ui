@@ -12,29 +12,10 @@ $ composer create-project andri-sudarmawijaya/codeigniter-composer-installer cod
 ### Install this package
 
 ```
-$ cd /path/to/codeigniter
-$ nano bin/install.php
-```
-add package as array
-```
-            'theme-core-ui' => array(
-                'site'  => 'github',
-                'user'  => 'andri-sudarmawijaya',
-                'repos' => 'theme-core-ui',
-                'name'  => 'Theme CoreUI',
-                'dir'   => array('controllers','models', 'views'),
-                'msg'   => 'See https://github.com/andri-sudarmawijaya/theme-core-ui/',
-                'example_branch' => 'master',
-            ),
-```
-run the installer
-```
-$ bin/install.php theme-core-ui
+composer require andri-sudarmawijaya/theme-core-ui:1.0.x-dev
 ```
 
-copy folder assets to public
+run the script
 ```
-$ cp -Rv vendor/andri-sudarmawijaya/theme-core-ui/public/assets public
+composer run-script post-update-cmd -d vendor/andri-sudarmawijaya/theme-core-ui
 ```
-## Result
-access /home and /home/dashboard from your site.
