@@ -28,6 +28,10 @@ class Installer {
                 'source' => './models',
                 'dest' => '../../../application/models'
             ],
+            'config' => [
+                'source' => './config',
+                'dest' => '../../../application/config'
+            ],
             'public' => [
                 'source' => './public',
                 'dest' => '../../../public'
