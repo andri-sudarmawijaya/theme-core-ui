@@ -2,7 +2,6 @@
     "name": "andri-sudarmawijaya/theme-core-ui",
     "description": "CodeIginter 3 Theme Based on Core UI",
     "type": "codeigniter-views",
-    "version": "v0.0.1",
     "require": {
         "coreui/coreui": "^4.0",
         "twbs/bootstrap": "^4.0",
@@ -14,6 +13,13 @@
         {
             "name": "Andri Sudarmawijaya",
             "email": "andri.sudarmawijaya@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "name": "andri-sudarmawijaya/theme-core-ui",
+            "type": "vcs",
+            "url": "git@github.com:andri-sudarmawijaya/theme-core-ui.git"
         }
     ],
     "license": "MIT",
