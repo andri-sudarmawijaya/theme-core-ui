@@ -22,11 +22,6 @@
             "AndriSudarmawijaya\\ThemeCoreUi\\": "src/"
         }
     },
-    "autoload": {
-        "psr-4": {
-            "AndriSudarmawijaya\\ThemeCoreUi\\": "src/"
-        }
-    },
     "scripts" : {
         "post-install-cmd": [
             "AndriSudarmawijaya\\ThemeCoreUi\\Installer::postInstall"
